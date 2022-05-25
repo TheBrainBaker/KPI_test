@@ -55,6 +55,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'http://kpi-test.brainbraker.com'
 ]
 
 ROOT_URLCONF = 'KPI_test.urls'
