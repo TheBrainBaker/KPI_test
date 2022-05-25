@@ -5,7 +5,7 @@ import { BrowserRouter as Route } from "react-router-dom";
 
 import axios from 'axios';
 
-const BASE_URL = "https://dashboard.addictproxies.com/api/";
+const BASE_URL = "http://brainbraker.com:8001/";
 
 const getCookie = function(cname) {
 	let name = cname + "=";

@@ -10,6 +10,7 @@ import 'primeicons/primeicons.css';
 
 // PAGES
 import Investment from "./pages/Investment";
+import Charts from "./pages/Charts";
 
 
 import { useEffect } from "react";
@@ -28,6 +29,7 @@ function App() {
 	return (
 		<Routes>
 			<Route exact path="/" element={<Investment />} />
+			<Route exact path="/charts" element={<Charts />} />
 		</Routes>
 	);
 }

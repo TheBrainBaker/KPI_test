@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -9,9 +8,9 @@ const Header = () => {
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="d-flex justify-content-between align-items-center">
-						<div className="d-flex align-items-center">
+						<div className="d-flex align-items-center justify-content-between w-100">
 							<Link to="/">
-								<img data-aos="fade-right" src={null} alt="" />
+								<img className="w-100" data-aos="fade-right" src="https://www.kpi-intelligence.com/wp-content/uploads/2022/01/logo_kpi_ville.png" alt="logo" />
 							</Link>
 
 							<div
@@ -21,6 +20,15 @@ const Header = () => {
 							>
 								<p className="mb-0 text-white f35">KPI test investments</p>
 							</div>
+							
+
+							<Link to="/" className="text-decoration-none text-white f20">
+								<a>investments</a>
+							</Link>
+
+							<Link to="/charts" className="text-decoration-none text-white f20">
+								<a>charts</a>
+							</Link>
 						</div>
 					</div>
 				</div>
