@@ -2,7 +2,7 @@
 
 ## Description
 
-Small web app + REST API made with Python Django and React.js to demonstrate my skills to KPI. I didn't turn off debug mode on Django on purpose.
+Small web app + REST API made with Python Django and React.js to demonstrate my skills to KPI. I didn't turn off debug mode on Django on purpose. On the website, you need to double click on a row to display details and edit it.
 
 ## Instalation
 
